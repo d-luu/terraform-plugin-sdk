@@ -19,7 +19,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/diagutils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/helper/hashcode"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/providers"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 

@@ -23,7 +23,7 @@ require (
 	github.com/hashicorp/go-plugin v1.3.0
 	github.com/hashicorp/go-uuid v1.0.1
 	github.com/hashicorp/go-version v1.2.1
-	github.com/hashicorp/hcl/v2 v2.3.0
+	github.com/hashicorp/hcl/v2 v2.7.0
 	github.com/hashicorp/logutils v1.0.0
 	github.com/hashicorp/terraform-exec v0.10.0
 	github.com/hashicorp/terraform-json v0.5.0
@@ -37,8 +37,12 @@ require (
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/mitchellh/reflectwalk v1.0.1
 	github.com/pierrec/lz4 v2.0.5+incompatible
-	github.com/zclconf/go-cty v1.2.1
+	github.com/zclconf/go-cty v1.7.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/tools v0.0.0-20200713011307-fd294ab11aed
 	google.golang.org/grpc v1.32.0
 )
+
+//replace (
+//	github.com/hashicorp/terraform-plugin-sdk/v2/internal/tfdiags => ../../d-luu/terraform-common/tfdiags
+//)

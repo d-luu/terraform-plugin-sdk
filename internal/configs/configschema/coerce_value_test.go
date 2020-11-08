@@ -6,7 +6,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/hashicorp/go-cty/cty"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 )
 
 func TestCoerceValue(t *testing.T) {
