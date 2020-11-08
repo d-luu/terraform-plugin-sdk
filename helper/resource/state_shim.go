@@ -6,8 +6,8 @@ import (
 
 	tfjson "github.com/hashicorp/terraform-json"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/addrs"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/internal/tfdiags"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 
